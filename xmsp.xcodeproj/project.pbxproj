@@ -11,9 +11,12 @@
 		BB5773B3166E6EAE009B9514 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5773B1166E6EAE009B9514 /* InfoPlist.strings */; };
 		BB5773B5166E6EAE009B9514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773B4166E6EAE009B9514 /* main.m */; };
 		BB5773B9166E6EAE009B9514 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB5773B7166E6EAE009B9514 /* Credits.rtf */; };
-		BB5773BC166E6EAE009B9514 /* PSUDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773BB166E6EAE009B9514 /* PSUDocument.m */; };
-		BB5773BF166E6EAE009B9514 /* PSUDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5773BD166E6EAE009B9514 /* PSUDocument.xib */; };
-		BB5773C2166E6EAF009B9514 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5773C0166E6EAF009B9514 /* MainMenu.xib */; };
+		BB5773D2166E6EF4009B9514 /* PSUDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773C9166E6EF4009B9514 /* PSUDocument.m */; };
+		BB5773D3166E6EF4009B9514 /* PSUDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5773CA166E6EF4009B9514 /* PSUDocument.xib */; };
+		BB5773D4166E6EF4009B9514 /* Core.c in Sources */ = {isa = PBXBuildFile; fileRef = BB5773CB166E6EF4009B9514 /* Core.c */; };
+		BB5773D5166E6EF4009B9514 /* PSUGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773CE166E6EF4009B9514 /* PSUGraphView.m */; };
+		BB5773D6166E6EF4009B9514 /* PSUApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773D0166E6EF4009B9514 /* PSUApplicationDelegate.m */; };
+		BB5773D7166E6EF4009B9514 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5773D1166E6EF4009B9514 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +30,16 @@
 		BB5773B4166E6EAE009B9514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB5773B6166E6EAE009B9514 /* xmsp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xmsp-Prefix.pch"; sourceTree = "<group>"; };
 		BB5773B8166E6EAE009B9514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		BB5773BA166E6EAE009B9514 /* PSUDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSUDocument.h; sourceTree = "<group>"; };
-		BB5773BB166E6EAE009B9514 /* PSUDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSUDocument.m; sourceTree = "<group>"; };
-		BB5773BE166E6EAE009B9514 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSUDocument.xib; sourceTree = "<group>"; };
-		BB5773C1166E6EAF009B9514 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB5773C8166E6EF4009B9514 /* PSUDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUDocument.h; sourceTree = "<group>"; };
+		BB5773C9166E6EF4009B9514 /* PSUDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUDocument.m; sourceTree = "<group>"; };
+		BB5773CA166E6EF4009B9514 /* PSUDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSUDocument.xib; sourceTree = "<group>"; };
+		BB5773CB166E6EF4009B9514 /* Core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Core.c; sourceTree = "<group>"; };
+		BB5773CC166E6EF4009B9514 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		BB5773CD166E6EF4009B9514 /* PSUGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUGraphView.h; sourceTree = "<group>"; };
+		BB5773CE166E6EF4009B9514 /* PSUGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUGraphView.m; sourceTree = "<group>"; };
+		BB5773CF166E6EF4009B9514 /* PSUApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUApplicationDelegate.h; sourceTree = "<group>"; };
+		BB5773D0166E6EF4009B9514 /* PSUApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUApplicationDelegate.m; sourceTree = "<group>"; };
+		BB5773D1166E6EF4009B9514 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +93,16 @@
 		BB5773AE166E6EAE009B9514 /* xmsp */ = {
 			isa = PBXGroup;
 			children = (
-				BB5773BA166E6EAE009B9514 /* PSUDocument.h */,
-				BB5773BB166E6EAE009B9514 /* PSUDocument.m */,
-				BB5773BD166E6EAE009B9514 /* PSUDocument.xib */,
-				BB5773C0166E6EAF009B9514 /* MainMenu.xib */,
+				BB5773C8166E6EF4009B9514 /* PSUDocument.h */,
+				BB5773C9166E6EF4009B9514 /* PSUDocument.m */,
+				BB5773CA166E6EF4009B9514 /* PSUDocument.xib */,
+				BB5773CB166E6EF4009B9514 /* Core.c */,
+				BB5773CC166E6EF4009B9514 /* Core.h */,
+				BB5773CD166E6EF4009B9514 /* PSUGraphView.h */,
+				BB5773CE166E6EF4009B9514 /* PSUGraphView.m */,
+				BB5773CF166E6EF4009B9514 /* PSUApplicationDelegate.h */,
+				BB5773D0166E6EF4009B9514 /* PSUApplicationDelegate.m */,
+				BB5773D1166E6EF4009B9514 /* MainMenu.xib */,
 				BB5773AF166E6EAE009B9514 /* Supporting Files */,
 			);
 			path = xmsp;
@@ -159,8 +174,8 @@
 			files = (
 				BB5773B3166E6EAE009B9514 /* InfoPlist.strings in Resources */,
 				BB5773B9166E6EAE009B9514 /* Credits.rtf in Resources */,
-				BB5773BF166E6EAE009B9514 /* PSUDocument.xib in Resources */,
-				BB5773C2166E6EAF009B9514 /* MainMenu.xib in Resources */,
+				BB5773D3166E6EF4009B9514 /* PSUDocument.xib in Resources */,
+				BB5773D7166E6EF4009B9514 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +187,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB5773B5166E6EAE009B9514 /* main.m in Sources */,
-				BB5773BC166E6EAE009B9514 /* PSUDocument.m in Sources */,
+				BB5773D2166E6EF4009B9514 /* PSUDocument.m in Sources */,
+				BB5773D4166E6EF4009B9514 /* Core.c in Sources */,
+				BB5773D5166E6EF4009B9514 /* PSUGraphView.m in Sources */,
+				BB5773D6166E6EF4009B9514 /* PSUApplicationDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +211,6 @@
 				BB5773B8166E6EAE009B9514 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		BB5773BD166E6EAE009B9514 /* PSUDocument.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB5773BE166E6EAE009B9514 /* en */,
-			);
-			name = PSUDocument.xib;
-			sourceTree = "<group>";
-		};
-		BB5773C0166E6EAF009B9514 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB5773C1166E6EAF009B9514 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
