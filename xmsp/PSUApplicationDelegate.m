@@ -15,6 +15,12 @@
     
 }
 
+// don't open an untitled new file.
+- (BOOL)applicationShouldOpenUntitledFile:(NSApplication *)sender
+{
+    return NO;
+}
+
 -(void)applicationDidFinishLaunching:(NSNotification *)notification
 {
     NSArray *arguments = [[NSProcessInfo processInfo] arguments];
