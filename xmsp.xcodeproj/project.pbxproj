@@ -17,6 +17,7 @@
 		BB5773D5166E6EF4009B9514 /* PSUGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773CE166E6EF4009B9514 /* PSUGraphView.m */; };
 		BB5773D6166E6EF4009B9514 /* PSUApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5773D0166E6EF4009B9514 /* PSUApplicationDelegate.m */; };
 		BB5773D7166E6EF4009B9514 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5773D1166E6EF4009B9514 /* MainMenu.xib */; };
+		BB57741D1677DACE009B9514 /* PSUDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB57741C1677DACE009B9514 /* PSUDocumentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		BB5773CF166E6EF4009B9514 /* PSUApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUApplicationDelegate.h; sourceTree = "<group>"; };
 		BB5773D0166E6EF4009B9514 /* PSUApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUApplicationDelegate.m; sourceTree = "<group>"; };
 		BB5773D1166E6EF4009B9514 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		BB57741B1677DACE009B9514 /* PSUDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUDocumentController.h; sourceTree = "<group>"; };
+		BB57741C1677DACE009B9514 /* PSUDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUDocumentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				BB5773C8166E6EF4009B9514 /* PSUDocument.h */,
 				BB5773C9166E6EF4009B9514 /* PSUDocument.m */,
 				BB5773CA166E6EF4009B9514 /* PSUDocument.xib */,
+				BB57741B1677DACE009B9514 /* PSUDocumentController.h */,
+				BB57741C1677DACE009B9514 /* PSUDocumentController.m */,
 				BB5773CB166E6EF4009B9514 /* Core.c */,
 				BB5773CC166E6EF4009B9514 /* Core.h */,
 				BB5773CD166E6EF4009B9514 /* PSUGraphView.h */,
@@ -123,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB5773A3166E6EAE009B9514 /* xmsp */ = {
+		BB5773A3166E6EAE009B9514 /* xmspcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB5773C5166E6EAF009B9514 /* Build configuration list for PBXNativeTarget "xmsp" */;
+			buildConfigurationList = BB5773C5166E6EAF009B9514 /* Build configuration list for PBXNativeTarget "xmspcode" */;
 			buildPhases = (
 				BB5773A0166E6EAE009B9514 /* Sources */,
 				BB5773A1166E6EAE009B9514 /* Frameworks */,
@@ -135,7 +140,7 @@
 			);
 			dependencies = (
 			);
-			name = xmsp;
+			name = xmspcode;
 			productName = xmsp;
 			productReference = BB5773A4166E6EAE009B9514 /* xmsp.app */;
 			productType = "com.apple.product-type.application";
@@ -162,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB5773A3166E6EAE009B9514 /* xmsp */,
+				BB5773A3166E6EAE009B9514 /* xmspcode */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +196,7 @@
 				BB5773D4166E6EF4009B9514 /* Core.c in Sources */,
 				BB5773D5166E6EF4009B9514 /* PSUGraphView.m in Sources */,
 				BB5773D6166E6EF4009B9514 /* PSUApplicationDelegate.m in Sources */,
+				BB57741D1677DACE009B9514 /* PSUDocumentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB5773C5166E6EAF009B9514 /* Build configuration list for PBXNativeTarget "xmsp" */ = {
+		BB5773C5166E6EAF009B9514 /* Build configuration list for PBXNativeTarget "xmspcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB5773C6166E6EAF009B9514 /* Debug */,
 				BB5773C7166E6EAF009B9514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
