@@ -330,14 +330,13 @@
         
         for (int i=0; i<self.data->n_files; ++i)
         {
+            // colors by file.
+            NSColor *color= self.plotColors[i%self.plotColors.count];
+            
+            [color set];
+            
             for (int col=1; col<self.data->n_cols[i]; col++)
             {
-                // note that this one of my demo files has 42 cols, but only has data in 3 of them; but they don't
-                // seem to be the expected ones (ie the first three)
-                NSColor *color= self.plotColors[col%self.plotColors.count];
-
-                [color set];
-
                 for (int row=1; row<self.data->n_rows[i]; row++)
                 {
                     float x1 = (self.data->data_ptr[i][0][row-1] - self.data->minx);
